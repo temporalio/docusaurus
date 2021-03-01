@@ -10,6 +10,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Docusaurus',
+      link: {type: 'link', href: 'https://google.com'},
       items: ['introduction', 'design-principles', 'contributing'],
     },
     {
@@ -21,6 +22,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Guides',
+      link: {type: 'doc', id: 'creating-pages'},
       items: [
         'guides/creating-pages',
         {

@@ -101,6 +101,7 @@ export type SidebarItemLink = SidebarItemBase & {
   type: 'link';
   href: string;
   label: string;
+  link?: object;
 };
 
 export type SidebarItemCategory = SidebarItemBase & {
