@@ -129,6 +129,7 @@ export type OrderMetadata = {
 
 export type LastUpdateData = {
   lastUpdatedAt?: number;
+  formattedLastUpdatedAt?: string;
   lastUpdatedBy?: string;
 };
 
