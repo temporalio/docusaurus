@@ -12,7 +12,7 @@ jobs:
         id: netlify
         with:
           site_name: 'goofy-kalam-1b3194'
-          max_timeout: 1000
+          max_timeout: 1100
       - name: Audit URLs using Lighthouse
         id: lighthouse_audit
         uses: treosh/lighthouse-ci-action@v3
